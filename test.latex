@@ -1,0 +1,23 @@
+\documentclass{beamer}
+\usetheme{metropolis}
+
+\usepackage{pgfpages}
+\setbeameroption{show notes on second screen=right}
+
+\begin{document}
+
+  \begin{frame}{A frame}
+  \end{frame}
+  \note{Some notes}
+
+  \begin{frame}[standout]
+    A standout frame.
+  \end{frame}
+  \note{Some notes}
+
+  \begin{frame}{Another frame}
+  \end{frame}
+  \note{Some notes}
+
+\end{document}
+
